@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="css/diseño.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+     <header>
+        <nav>
+            <a href="#">Inntroduccion</a>
+            <a href="#">3.1</a>
+            <a href="#">3.2</a>
+            <a href="#">3.3</a>
+            <a href="#">3.4</a>
+        </nav>
+        <section class="contenedor indice">
+            <div class="contenido-indice">
+                <h1 >Unidad 3. Dispositivos de red</h1>
+                <p>Los dispositivos que se utilizan para conectar computadoras, impresoras, máquinas de fax y otros dispositivos electrónicos a una red se denominan dispositivos de red. Estos dispositivos transfieren datos de forma rápida, segura y correcta a través de las redes. </p>
+            </div>    
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" 
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+            style="stroke: none; fill: rgb(19, 19, 19);"></path>
+        </svg></div>
+    </header>
+     <main>
+        <section class="contenedor-osi">
+         <div class="content-osi">
+            <h2 class="titulo1">3.1 Dispositivos de capa física</h2>
+             <div class="introduccion">
+                 <h2>¿Qué es?</h2>
+                 <p> La capa física del modelo TCP / IP es responsable de la conectividad física de dos dispositivos.</p>
+             </div>
+             <div class="cards">
+                <div class="card">
+                    <div class="contenido-cards">
+                        <h4>Hubs</h4>
+                        <p>Los hubs son dispositivos que se utilizan normalmente para conectar segmentos de una LAN, contiene múltiples puertos de entrada / salida.</p>
+                    </div>
+                </div> 
+                <div class="card">
+                    <div class="contenido-cards">
+                        <h4>Repetidores</h4>
+                        <p>Los repetidores se utilizan para regenerar señales analógicas o digitales distorsionadas por la pérdida de transmisión. Los repetidores analógicos sólo pueden amplificar la señal, mientras que los repetidores digitales pueden reproducir una señal cercana a su calidad original.</p>
+                    </div> 
+                </div> 
+                <div class="card">
+                <div class="subcard">
+                    <div class="contenido-card">
+                        <h4>Cables</h4>
+                        <p>Los cables se utilizan para interconectar los dispositivos. </p>
+                    </div>
+                    <div class="contenido-subcard">
+                    <div class="contenido-card2">
+                        <h5>Conector RJ45</h5>
+                        <p>Es un conector de 8 pines que utilizan los dispositivos para conectarse físicamente a redes de área local basadas en Ethernet.</p>
+                    </div>
+                    <div class="contenido-card2">
+                        <h5>Fibra Optica</h5>
+                        <p>Es un conjunto similar a un cable eléctrico, pero que contiene una o más fibras ópticas que se utilizan para transportar luz.</p>
+                    </div> 
+                </div>
+                </div>
+                </div> 
+            </div>  
+         </div>
+        </section>
+        <section class="contenedor-tcp">
+            <h2 class="titulo">3.2 Dispositivos de capa de enlace</h2>
+            <div class="introduccion2">
+                <h2>¿Qué es?</h2>
+                <p>La capa de enlace de datos es responsable de transferir datos salto a salto (es decir, dentro de la misma LAN, de un dispositivo a otro) según la dirección MAC.</p>
+            </div>
+            <div class="contenedor-capas">
+                <div class="content-capa">
+                   <img src="img/puente.jpeg" alt="" class="imagen-card">
+                    <h3><span>1</span> Bridges</h3>
+                    <p>Un bridge es un tipo de dispositivo de red informática que proporciona interconexión con otras redes que utilizan el mismo protocolo, conectando dos redes diferentes juntas y proporcionando comunicación entre ellas.</p>
+                </div>
+                <div class="content-capa">
+                   <img src="img/modem.jpg" alt="" class="imagen-card">
+                   <h3><span>2</span> Modem</h3>
+                   <p>Un módem convierte las señales digitales generadas por la computadora en señales analógicas que, luego, pueden transmitirse a través de una línea de cable y transforma las señales analógicas entrantes en equivalentes digitales.</p>
+               </div>
+               <div class="content-capa">
+                   <img src="img/tarjetared.jpg" alt="" class="imagen-card">
+                   <h3><span>3</span> Tarjetas de interfaz de red</h3>
+                   <p>Se encarga de identificar el enrutamiento existente entre una o más redes. Las unidades de datos se denominan paquetes, y se pueden clasificar en protocolos enrutables y protocolos de enrutamiento.</p>
+               </div>
+               <div class="content-capa">
+                   <img src="img/switch2.jpg" alt="" class="imagen-card">
+                   <h3><span>4</span> Switches de capa 2</h3>
+                   <p>Los switches capa 2 se denominan a los switches tradicionales, generalmente son switches no administrables donde todos los puertos tienen la misma configuración,</p>
+               </div>
+            </div>           
+        </section>
+        <section class="row">
+            <div class="content-art">
+                <div class="articulos">
+                    <h2 class="titulo">3.3 Dispositivos de capa de red</h2>
+            <div class="introduccion2">
+                <h2>¿Qué es?</h2>
+                <p>Es responsable de crear la tabla de enrutamiento y, en función de la tabla de enrutamiento, reenviar la solicitud de entrada.</p>
+            </div>
+                    <article class="box">
+                        <a href=""><img src="img/router.jpg" alt=""></a>
+                        <div class="box-texto">
+                            <h5>July 4</h5>
+                            <h3>Routers</h3>
+                            <p>Los enrutadores normalmente conectan la red de área local (LAN) y la red amplia (WAN) juntas y tienen una tabla de enrutamiento que se actualiza dinámicamente en función de la cual toman decisiones sobre el enrutamiento de los paquetes entrantes.</p>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <a href=""><img src="img/brouter.jpg" alt=""></a>
+                        <div class="box-texto">
+                            <h5>July 18</h5>
+                            <h3>Brouters</h3>
+                            <p>El brouter enruta paquetes para protocolos conocidos y simplemente reenvía todos los demás paquetes como lo haría un puente. Los brouters operan tanto en la capa de red para protocolos enrutables o entre redes con diferentes protocolos de capa de enlace de datos.</p>
+                        </div>
+                    </article>
+                    <article class="box" id="box-ultimo">
+                        <a href=""><img src="img/switch3.jpg" alt=""></a>
+                        <div class="box-texto">
+                            <h5>July 24</h5>
+                            <h3>Switches de capa 3</h3>
+                            <p>Los switches capa 3 o superior permiten crear, en un mismo dispositivo, múltiples redes de nivel 3 y encaminar los paquetes realizando Funciones de routing.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        <section class="protocolos">
+            <div class="contenedor">
+                <h2 class="titulo">3.4 Dispositivos de capas superiores</h2>
+                <div class="galeria-info">
+                    <div class="card-dev">
+                        <p>Es responsable de la comunicación de extremo a extremo</p>
+                        <div class="hover-galeria">
+                            <p>Dispositivos de capa de transporte</p>
+                        </div>
+                    </div>
+                    <div class="card-dev">
+                        <p>Es un componente que forma parte de dos redes que utilizan protocolos diferentes.</p>
+                        <div class="hover-galeria">
+                            <p>Gateways</p>
+                        </div>
+                    </div>
+                    <div class="card-dev">
+                        <p>Se utiliza para intercambiar mensajes.</p>
+                        <div class="hover-galeria">
+                            <p>Dispositivos de capa de aplicación</p>
+                        </div>
+                    </div>
+                    <div class="card-dev">
+                        <p>Es un sistema diseñado para evitar el acceso no autorizado hacia o desde una red privada, algunas de las funcionalidades del cortafuegos son, filtrado de paquetes y como servidor proxy.</p>
+                        <div class="hover-galeria">
+                            <p>Firewalls</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     <footer>
+         <div class="contenedor-footer">
+             <div class="content-foo">
+                 <h4> Unidad 3 / Diseño Web Erick Andres Huerta Marañon</h4>
+             </div>
+         </div>
+     </footer>    
+</body>
+</html>
